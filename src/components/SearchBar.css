@@ -1,0 +1,15 @@
+.searchInputs { 
+    margin-top: 10%;
+    padding-left:  5%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+.textsearch {
+    font-size: 1.2rem;
+    /* font-size: 15px; */
+    border: 1px solid #ccc;
+}
+

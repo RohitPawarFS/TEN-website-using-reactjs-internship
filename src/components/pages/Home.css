@@ -1,0 +1,334 @@
+.home-main {
+    margin: 3%;
+    /* padding: 2%; */
+    display: grid;
+    background-repeat: no-repeat;
+}
+
+a {
+    /* color: black; */
+    /* color: white; */
+    color: var(--maincolor);
+    text-decoration: none;
+}
+
+.Home-sec {
+    background-image: url('https://static.wixstatic.com/media/44a6c2_b456634292f844e7b822bb94dcd431fd~mv2.jpg/v1/fill/w_1260,h_784,al_c,q_85,usm_0.66_1.00_0.01/44a6c2_b456634292f844e7b822bb94dcd431fd~mv2.webp');
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh; 
+    margin-bottom: 3%;
+    }
+
+.home-head {
+    color: #FFE68F;
+    /* color: var(--maincolor); */
+    position: absolute;
+    bottom: 0%;
+    font-size: 3rem; 
+    text-shadow: 2px 2px #FF0000;
+    }
+
+.about-sec {
+    /* background: skyblue; */
+    background: linear-gradient(to right, rgb(41, 128, 185), rgb(109, 213, 250), rgb(223, 210, 210));
+    /* #5dbbdc */
+    display: flex;
+    justify-content: center;    
+    /* justify-content: start; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh; 
+    margin-bottom: 3%;
+}
+
+.about-head {
+    text-align: center;
+    font-size: 40px;
+}
+
+.about-img {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 28%;
+    height: auto;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.about-div {
+    justify-content: center;
+    text-align: left;
+    font-size: 40px;
+    margin-top: 35%;
+    margin-left: -40%;
+    text-shadow: 2px 2px white;
+}
+
+.discord-sec {
+    /* background-image: url('https://static.wixstatic.com/media/dcca985fe5e148b1aea6744afd6af686.jpg/v1/fill/w_1874,h_670,al_c,q_85,usm_0.66_1.00_0.01/dcca985fe5e148b1aea6744afd6af686.webp'); */
+    background:linear-gradient(rgba(24, 24, 24, 0.220),rgba(24, 24, 24, 0.220)),url('https://static.wixstatic.com/media/dcca985fe5e148b1aea6744afd6af686.jpg/v1/fill/w_1874,h_670,al_c,q_85,usm_0.66_1.00_0.01/dcca985fe5e148b1aea6744afd6af686.webp') no-repeat center center;
+    display: flex;
+    justify-content: center;    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50vh; 
+    margin-bottom: 3%;
+/*  */
+    /*  */
+/*  */
+/*  */
+    /*  */
+/*  */
+/*  */
+    display: none;
+}
+
+.discord-div {
+    width: 100%;
+    height: 50vh;
+    background-color: transparent;
+    justify-content: center; 
+    text-align: center;
+}
+
+.discord-head {
+    display: block;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0d25ac;
+    text-shadow: 0.5px 0.5px  white;
+    
+}
+
+.discord-head-p {
+    color: var(--maincolor);
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 4px 4px red;
+}
+.discord-a {
+    display: block;
+}
+
+.courseEntrepreneurship-sec {
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* height: 60vh; */
+    /* background-color: #FF0000; */
+}
+
+.course1Entrepreneurship-div1 {
+    width: 75%;
+    height: 60vh;
+    background:linear-gradient(rgba(24, 24, 24, 0.384),rgba(24, 24, 24, 0.39)),url('https://static.wixstatic.com/media/11062b_0f10d1a3bc8e4fb1ba089c42056efe9b~mv2.jpg/v1/fill/w_820,h_590,al_c,q_85,usm_0.66_1.00_0.01/11062b_0f10d1a3bc8e4fb1ba089c42056efe9b~mv2.webp') no-repeat center center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 10%;
+    padding-top: 8%;
+}
+
+.course1Entrepreneurship-div2 {
+    display: inline-block;
+    width: 25%;
+    height: 60vh;
+    /* background-color: rgba(0, 0, 255, 0.733); */
+    /* background-color: var(--maincolor); */
+    /* background-color: rgb(55, 66, 172); */
+    background-color: #f3cf7a;
+    /* color: blanchedalmond; */
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#course-p {
+    font-size: 40px;
+    color: #1f2438d8;
+    text-shadow: 1px 1px #f3cf7a;
+    
+}
+
+.course2Entrepreneurship-div1 {
+    width: 50%;
+    height: 60vh;
+    background:linear-gradient(rgba(24, 24, 24, 0.171),rgba(24, 24, 24, 0.171)),url('https://static.wixstatic.com/media/44a6c2_f9b99e49448943108aa1a3273b1c356b~mv2.jpg/v1/fill/w_1169,h_563,al_c,q_85,usm_0.66_1.00_0.01/44a6c2_f9b99e49448943108aa1a3273b1c356b~mv2.webp') no-repeat center center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 10%;
+    padding-top: 8%;
+}
+
+.course2Entrepreneurship-div2 {
+    display: inline-block;
+    width: 25%;
+    height: 60vh;
+    background-color: #f3cf7a;
+    /* color: blanchedalmond; */
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.course2Entrepreneurship-div3 {
+    width: 25%;
+    height: 60vh;
+    background:linear-gradient(rgba(24, 24, 24, 0.171),rgba(24, 24, 24, 0.171)),url('https://static.wixstatic.com/media/11062b_557462ab123440368447ab18a66043e5~mv2.jpg/v1/fill/w_585,h_563,al_c,q_80,usm_0.66_1.00_0.01/11062b_557462ab123440368447ab18a66043e5~mv2.webp') no-repeat center center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+
+
+.course3Entrepreneurship-div1 {
+    display: inline-block;
+    width: 50%;
+    height: 60vh;
+    background-color: #f3cf7a;
+    /* color: blanchedalmond; */
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.course3Entrepreneurship-div2 {
+    width: 50%;
+    height: 60vh;
+    background:linear-gradient(rgba(24, 24, 24, 0.171),rgba(24, 24, 24, 0.171)),url('https://static.wixstatic.com/media/a3ac449c86364dd8999922949876d09e.jpg/v1/fill/w_1169,h_555,al_c,q_85,usm_0.66_1.00_0.01/a3ac449c86364dd8999922949876d09e.webp') no-repeat center center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 10%;
+    padding-top: 8%;
+}
+
+.benefits {
+    margin-top: 3%; 
+    margin-bottom: 3%; 
+    padding-bottom: 2%;
+    background: linear-gradient(to top, rgb(41, 127, 185), rgba(109, 212, 250, 0), rgba(109, 212, 250, 0), rgba(223, 210, 210, 0));
+/*  */
+/*  */
+/*  */
+/*  */
+    display: none;
+}
+
+.benefits-hdiv {
+    /* background-color: var(--maincolor); */
+    background-color: black;
+}
+
+.benefits-h1 {
+    font-size: 50px;
+    text-align: center;
+    /* background-color: black; */
+    background-color: var(--maincolor);
+    clip-path: polygon(0 0, 75% 0, 78% 48%, 75% 100%, 0 100%, 0 50%);
+    /* clip-path: polygon(0 0, 68% 0, 71% 51%, 68% 100%, 0 100%, 0 50%); */
+    /* clip-path: polygon(0 1%, 12% 0, 10% 50%, 12% 99%, 0 100%, 0% 50%); */
+    /* color: white; */
+}
+
+.benefits-div {
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: justify;
+
+}
+
+.div-benifits {
+    width: 25%;
+} 
+
+.p-benifits {
+    margin-left: 5%;
+} 
+
+.consulting-sec {
+/*  */
+    /*  */
+    /* 
+     */
+     /*  */
+     /*  */
+    display: none;
+}
+
+.imageslider-sec{
+    width: 100%;
+    /* height: 90vh; */
+    background-color: var(--maincolor);
+    margin-bottom: 3%;
+/*  */
+/*  */
+/*  */
+/*  */
+    display: none;
+}
+
+
+.consulting-div {
+    /* display: inline;
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.425);
+    background-color: #FF0000;
+    z-index: 2; */
+    position: relative;
+    height: 50vh;
+}
+
+
+#consulting-vid {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.consulting-link {
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+    /* text-shadow: 2px 3px rgba(245, 245, 245, 0.651); */
+    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgb(140 140 140 / 50%) 0px 4px 0px, #787878 0px 0px 0px, rgb(0 0 0 / 50%) 0px 5px 10px;
+    padding-top: 10%;
+}

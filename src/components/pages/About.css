@@ -1,0 +1,12 @@
+.Aboutpage-sec {
+    margin: 3% 10% 3% 10%;
+    padding: 0 5% 3% 5%;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(to bottom, rgb(41, 128, 185), rgb(109, 213, 250), rgb(223, 210, 210));
+}
+
+/* .Aboutpage-div {
+    text-align: center;
+} */

@@ -1,20 +1,22 @@
 .dropdown-menu {
     background: red;
-    width: 200px;
+    width: 300px;
     position: absolute;
     top: 80px;
     list-style: none;
     text-align: start;
+    z-index: 2;
   }
   
   .dropdown-menu li {
-    background: linear-gradient(to right, rgb(0, 159, 255), rgb(236, 47, 75));
+    /* background: linear-gradient(to right, rgb(0, 157, 255),rgb(13, 123, 192), rgb(4, 128, 206)rgb(236, 47, 75)); */
+    background: linear-gradient(to right,rgb(0, 149, 248),rgb(36, 154, 197),rgb(39, 186, 240),rgb(255, 255, 255) );
     cursor: pointer;
   }
   
   .dropdown-menu li:hover {
-    /* background: #5cabff; */
-    background: linear-gradient(to right,rgb(41, 128, 185),rgb(109, 213, 250),rgb(255, 255, 255) );
+    background: #007bff;
+    /* background: linear-gradient(to right,rgb(41, 128, 185),rgb(109, 213, 250),rgb(255, 255, 255) ); */
   }
   
   .dropdown-menu.clicked {
@@ -27,7 +29,8 @@
     width: 100%;
     text-decoration: none;
     color: #fff;
-    padding: 16px;
+    text-shadow: 1px 1px black;
+    padding: 3%;
   }
   
   @media screen and (max-width: 960px) {

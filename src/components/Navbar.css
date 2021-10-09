@@ -155,11 +155,13 @@
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
+      z-index: 2;
     }
   
     .fa-times {
       color: #000;
       font-size: 2rem;
+      z-index: 3;
     }
   
     .nav-links-mobile {
@@ -183,8 +185,9 @@
       transition: 250ms;
     }
   
-    button {
-      display: none;
+    .btn-nav {
+      /* display: none; */
+      visibility: hidden;
     }
 
     /* @media screen and (max-width: 960px) {

@@ -51,6 +51,15 @@ function Navbar() {
               Home
             </Link>
           </li>
+          <li className='nav-item'>
+            <Link
+              to='/products'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Online Courses
+            </Link>
+          </li>
           <li
             className='nav-item'
             onMouseEnter={onMouseEnter}
@@ -62,19 +71,10 @@ function Navbar() {
               onClick={setDropdown}
               // onClick={closeMobileMenu}
             >
-              Services <i className='fas fa-caret-down' />
+              More <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}            
-          </li>
-          <li className='nav-item'>
-            <Link
-              to='/products'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              Products
-            </Link>
-          </li>
+          </li>          
           <li className='nav-item'>
             <Link
               to='/contact-us'
@@ -98,8 +98,10 @@ function Navbar() {
               
           </li> */}
         </ul>
-
+        <div className="btn-nav">
         <Button />
+        </div>
+        {/* <Button /> */}
       </nav>
     </div>
   );

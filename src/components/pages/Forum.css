@@ -1,0 +1,118 @@
+.Forum-sec {
+    margin: 3% 10% 3% 10%;
+    padding: 3% 6% 3% 6%;
+    color: white;
+    background-color: black;
+}
+
+.Forum-div1 {
+    padding: 3%;
+}
+
+.Forum-span1 {
+    visibility: hidden;
+}
+
+
+.forum-input {
+    padding-left: 2%;
+    font-size: 20px;
+    background-color: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+
+}
+.Forum-div2 {
+    margin: 5%;
+    padding: 10%;
+    border: 1px solid gray;
+}
+
+.Forum-p1 {
+    width: 50%;
+    display: inline-block;
+    border-top-style: hidden;
+    border-right-style: groove;
+    border-left-style: hidden;
+    border-bottom-style: hidden;    
+}
+.Forum-p2 {
+    width: 50%;
+    padding-left: 3%;
+    display: inline;
+    position: absolute;
+}
+
+.Forum-button1 {
+    padding: 2% 10% 2% 10%;
+    font-size: 15px;
+    /* border: 1px solid purple; */
+    border: 1px solid rgb(121, 216, 251);
+    background-color: transparent;
+    /* color: purple; */
+    color: rgb(121, 216, 251);
+    cursor: pointer;
+}
+.Forum-button1:hover {
+    /* border: 1px solid rgb(194, 116, 250);  */
+    border: 1px solid rgb(159, 159, 255);
+    /* color: rgb(194, 116, 250);  */
+    color: rgb(161, 161, 255); 
+}
+
+.Forum-button2 {
+    padding: 1% 4% 1% 4%;
+    font-size: 15px;
+    cursor: pointer;
+    /* border: 1px solid rgba(207, 53, 207, 0.541);
+    background-color: rgb(208, 161, 242); */
+    border: 1px solid rgb(89, 89, 250);
+    background-color: rgb(121, 216, 251); 
+    color: black;
+}
+
+.Forum-button2:hover {
+    /* background-color: rgb(194, 116, 250);   */
+    background-color: rgba(121, 216, 251, 0.733);
+}
+
+@media screen and (max-width:960px) {
+    .Forum-span1 {
+        visibility: visible;
+    }
+
+    .Forum-span {
+        visibility: hidden;
+    }
+
+    .Forum-p1{
+        width: 100%;
+        display: block;
+        border-right-style: hidden;
+        justify-content: center;
+        text-align: center;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .Forum-button1 {
+        display: block;
+    }
+
+    .Forum-p2 {
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        display: block;
+    }
+
+    .Forum-button2 {
+        display: block;
+    }
+
+    .Forum-div2 {
+        height: 70vh;
+    }
+}

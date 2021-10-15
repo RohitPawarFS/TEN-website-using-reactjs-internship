@@ -1,0 +1,38 @@
+.complaints{  
+    margin: 5%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.comp{
+    color: rgb(204, 204, 19);
+    letter-spacing: 10px;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 5px 2px red,7px 3px black; 
+}
+.comp_p{
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size:30px;
+    color: black;
+}
+
+  
+@media screen and (max-width:990px) {
+    .comp{
+        color: rgb(204, 204, 19);
+        letter-spacing: 5px;
+        font-size: 40px;
+        font-weight: 900;
+        text-shadow: 3px 1px red,3px 2px black; 
+    }
+    .comp_p{
+      font-size:24px;
+    }
+    .img-complaint {
+        display: none;
+    }
+}
+  

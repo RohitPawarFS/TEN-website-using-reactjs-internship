@@ -17,19 +17,13 @@ export default function Forum() {
                 <div className="Forum-p1">
                     <h1>Already Have an Account?</h1>
                     <br/>
-                    <p>Log in to access the forum.</p>
-                    <br />
-                    <br />
-                    <br />
+                    <p>Log in to access the forum.</p><br /><br /><br />
                     <button className="Forum-button1">log in</button>
                 </div>
                 <div className="Forum-p2">
                     <h1>Sign Up Today</h1>
                     <br />
-                    <p style={{ width: '50%'}}>Join the forum to check out the posts and add your voice.</p>
-                    <br />
-                    <br />
-                    <br />
+                    <p style={{ width: '50%'}}>Join the forum to check out the posts and add your voice.</p><br /><br /><br />
                     <button className="Forum-button2" >Get started</button>
                 </div>
             </div>

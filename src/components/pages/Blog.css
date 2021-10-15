@@ -1,0 +1,111 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    margin: 20px;
+}
+
+.cardDesk{
+    width: 80%;
+    border: 3px solid gray;
+    cursor: pointer;
+}
+
+.CardImg {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.name{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 5px;
+    column-gap: 3px;
+}
+
+.profilePic{
+    width: 30%;
+    border-radius: 50%;
+    grid-column:1 /span 2 ;
+}
+
+
+.date , h6{
+    font-size: 10px;
+    grid-column: 3 /span 5;
+    text-align: start;
+}
+
+.cShareBtn{
+    font-size: 30px;
+    justify-content: end;
+}
+
+.text{
+    font-weight: 500;
+}
+
+.text:hover{
+    color:blueviolet;
+}
+
+.feedback{
+    display: flex;
+    border-top: 1px solid gray;
+    justify-content: space-between;
+    padding-top: 2px;
+    margin-top: 130px;
+}
+
+.views_comment{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+}
+
+.views{
+    font-weight: normal;
+}
+
+.like{
+    color:red;
+}
+
+.like span{
+    color: black;
+}
+
+.slides{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    column-gap: 5px;
+    width: 15%;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+.two{
+    text-decoration: none;
+}
+
+.two:hover{
+    cursor: pointer;
+    font-weight: 500;
+    opacity: 0.2;
+}
+
+@media screen and (max-width:700px) {
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3 1fr);
+    }
+}
+
+@media screen and (max-width:500px) {
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+}

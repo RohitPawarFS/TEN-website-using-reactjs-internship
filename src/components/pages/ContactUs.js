@@ -13,21 +13,11 @@ export default function ContactUs() {
       <div className="contact-div">
         <div className="contact-fieldset">
           <fieldset >
-            <legend style={{marginLeft: "2%"}}>Contact</legend>
-              <br/>
-              <input className="contact-input" type="text" placeholder="Name"/>
-              <br/>
-              <br/>
-              <input className="contact-input" type="email" placeholder="Email"/>
-              <br/>
-              <br/>
-              <textarea className="contact-textarea" name="text" placeholder="Add a message"/>
-              <br/>
-              <br/>
-              <button className="contact-btn">Submit</button>
-              <br/>
-              <br/>
-              <br/>
+            <legend style={{marginLeft: "2%"}}>Contact</legend><br/>
+              <input className="contact-input" type="text" placeholder="Name"/><br/><br/>
+              <input className="contact-input" type="email" placeholder="Email"/><br/><br/>
+              <textarea className="contact-textarea" name="text" placeholder="Add a message"/><br/><br/>
+              <button className="contact-btn">Submit</button><br/><br/><br/>
           </fieldset>
         </div>
         <div>
@@ -35,32 +25,18 @@ export default function ContactUs() {
         <br />
         <a className="contact-a" href="mailto:info@mysite.com" target="_blank">Email:</a>
         <br />
-        <a className="contact-a" href="mailto:hr.contact.ten@gmail.com" target="_blank">hr.contact.ten@gmail.com</a>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <a className="contact-a" href="mailto:hr.contact.ten@gmail.com" target="_blank">hr.contact.ten@gmail.com</a><br /><br /><br /><br /><br /><br />
         <a className="contact-a" href="mailto:info@mysite.com" target="_blank">Phone:</a>
         <br />
-        <a className="contact-a" href="mailto:info@mysite.com" target="_blank">+918595986120</a>
-        <br />
-        <br />
-        <br />  
-        <br />
+        <a className="contact-a" href="mailto:info@mysite.com" target="_blank">+918595986120</a><br /><br /><br /><br />
         <h5>Address:Delhi</h5>
         </div>
       </div>
       <div className="faq-div">
-        <h1>F<u>A</u>Q</h1>
-        <br />
-        <br />
+        <h1>F<u>A</u>Q</h1><br /><br />
         <div className="icon-search" ><h1>Frequently asked Question</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <i class="fas fa-search"></i>
-        </div>
-        <br />
-        <br />
+        </div><br /><br />
         <h4>What is The Entrepreneurship Network (TEN) ?</h4>
         <p>The Entrepreneurship Network (TEN) is a community based Edu-Tech group whose objective is to provide quality learning and expertise<br />Our current customer segment, at present, stands at 500+ colleges and 15000+ students, with new institutions coming in all the time.</p>
         <br />

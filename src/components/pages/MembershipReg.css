@@ -1,0 +1,211 @@
+
+.membership{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.member_image{
+    width:100%;
+    height:90vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.head1{
+    text-align: center;
+    color: #1888ff;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+.image1{
+    width:70%;
+    height: 90vh;
+}
+
+.member_details{
+    position: relative;
+    margin-top: 3%;
+    background: linear-gradient(to right, rgb(41, 128, 185), rgb(109, 213, 250), rgb(223, 210, 210));
+    justify-content: center;
+    align-items: center;
+    color:black;
+    text-align: center;
+    text-shadow: 1px 1px white;
+    padding-bottom: 100px;
+}
+
+.preg{
+    padding: 10%;
+    text-align:left;
+    font-size: 30px;
+}
+
+
+.btn1{
+    padding: 1% 5% 1% 5%;
+    height:auto;
+    color:black;
+    box-shadow: 2px 1px white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1888ff;
+    font-size: 20px;
+    font-weight: 500;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+
+
+}
+
+.btn1:hover{
+    color:black;
+    background-color: white;
+    box-shadow: 2px 1px #1888ff;
+}
+
+.btn1:last-child{
+    margin-left: 10%;
+}
+
+
+.perks{
+    padding: 5%;
+    position: relative;
+    width:100%;
+    height:65vh;
+    padding-bottom:0;
+    background-color: rgb(241, 153, 112);
+
+}
+.perks_text{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 40px; */
+}
+.perks_h1{
+    text-align: center;
+    color:rgb(97,75,0);
+    font-size: 50px;
+}
+.perks_li{
+    color:rgb(97,75,0);
+    font-size:40px ;
+    padding-bottom: 20px;
+}
+.perks_img{
+    position: relative;
+    float: right;
+    width:30%;
+    margin-bottom: 100px;
+    height:auto;
+}
+.register1 {
+    padding: 10% 10% 0% 20%;
+    background-color: black;
+    color: white;
+}
+.inputreg1 {
+    width: 45%;
+    display: inline-flex;
+    background-color: white;
+    padding: 0.5% 10% 0.5% 2%;
+    margin-right: 5%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-size: 18px;
+}
+
+.Reg-textarea1 {
+    width: 95%;   
+    height: 10vh;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    font-size: 25px;
+}
+
+.qr-cert1 {
+    margin-top: 5%;
+    font-size: 30px;
+    text-align: center;
+}
+.Reg-img {
+    width: 40%;
+    height: 40%;
+}
+@media screen and (max-width:890px) {
+    .member_image {
+        width: 100%;
+        height: 50vh;
+    }
+    .image1{
+        width:100%;
+        height:80%;
+    }
+    .member_details{
+        display: block;
+        width:100%;
+        font-size: 12px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .preg {
+        font-size: 18px;
+    }
+
+    .btn1:last-child{
+        margin-top: 3%;
+        margin-left: 40%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .perks{
+        width:100%;
+        height:45vh;
+        display: block;
+    }
+    .perks_text {
+        width:100%;
+        height:auto;
+        display: block;
+    }
+    .perks_h1 {
+        visibility: hidden;
+    }
+    .perks_li{
+        font-size: 18px;
+        height: auto;
+    }
+    .perks_img{
+        float: center;
+    }
+
+    .inputreg1 {
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .Reg-textarea1 {
+        width: 100%;
+    }
+    .Forum-button2 {
+        text-align: center;
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .btn1:last-child{
+        margin-left: 37%;
+    }
+
+}

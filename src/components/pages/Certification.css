@@ -1,0 +1,130 @@
+.certificate{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: auto;
+}
+.main_certificate{
+    background:linear-gradient(rgba(255, 253, 253, 0.856),rgba(255, 254, 254, 0.781)),url('https://static.wixstatic.com/media/e0136acb6a91480b87e8514652680cbf.jpg/v1/fill/w_1225,h_2560,al_c,q_90,usm_0.66_1.00_0.01/e0136acb6a91480b87e8514652680cbf.webp') no-repeat center center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5%;
+    padding: 7%;
+    width:auto;
+     
+}
+.ten_certificate{
+    font-size: 40px;
+    color: rgb(81,41,110);
+    font-weight:900;
+    text-align: center;
+    
+}
+.sub{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+}
+.per{
+    color:black;
+    font-size: 30px;
+    text-align: left;
+    padding:5%;
+}
+
+
+.certificate_grid_container {
+    display: grid;
+    grid-column-gap: 7%;
+    grid-row-gap: 14%;
+    grid-template-columns: auto auto ;
+    padding: 5%;
+    width:100%;
+    
+}
+.input1{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    font-size: 20px;
+    text-align: left;
+    background-color: rgb(255,222,95);
+    border-bottom:3px solid red;
+    padding:2% 10% 2% 3%;
+    
+    
+}
+           
+.input1::placeholder{
+    color:black;
+    font-weight: 900;
+    }
+.input1:hover{
+    background-color: white;
+    color:black;
+}
+
+.cert_btn{
+    position: relative;
+        
+    }
+
+.qr_cert{
+    padding-top:4% ;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:4% ;
+
+    }
+
+.img{
+    width:30%;
+    height:30%;
+}
+ @media screen and (max-width:850px) {
+
+    .main_certificate{
+        padding:10%;
+        width:auto;
+        
+        
+
+    }
+
+    .certificate{
+        display:block;
+        grid-column-gap: 2px;
+        grid-row-gap: 40px; 
+        grid-template-columns: auto auto ;
+    }
+
+    .certificate_grid_container {
+        display: block;
+    }
+    .grid-items {
+        margin-top: 5%;
+    }
+
+    .per{  
+        width:100%;
+        font-size: 15px;
+    }
+    .sub{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .qr_cert{
+        width: 100%;
+
+    }
+    .img{
+        width:50%;
+    }
+
+
+}

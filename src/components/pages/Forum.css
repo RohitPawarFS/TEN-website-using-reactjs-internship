@@ -48,17 +48,13 @@
 .Forum-button1 {
     padding: 2% 10% 2% 10%;
     font-size: 15px;
-    /* border: 1px solid purple; */
     border: 1px solid rgb(121, 216, 251);
     background-color: transparent;
-    /* color: purple; */
     color: rgb(121, 216, 251);
     cursor: pointer;
 }
 .Forum-button1:hover {
-    /* border: 1px solid rgb(194, 116, 250);  */
     border: 1px solid rgb(159, 159, 255);
-    /* color: rgb(194, 116, 250);  */
     color: rgb(161, 161, 255); 
 }
 
@@ -66,15 +62,12 @@
     padding: 1% 4% 1% 4%;
     font-size: 15px;
     cursor: pointer;
-    /* border: 1px solid rgba(207, 53, 207, 0.541);
-    background-color: rgb(208, 161, 242); */
     border: 1px solid rgb(89, 89, 250);
     background-color: rgb(121, 216, 251); 
     color: black;
 }
 
 .Forum-button2:hover {
-    /* background-color: rgb(194, 116, 250);   */
     background-color: rgba(121, 216, 251, 0.733);
 }
 

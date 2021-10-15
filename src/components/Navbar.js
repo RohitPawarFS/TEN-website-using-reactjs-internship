@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from './Button';
 import { SearchBar } from './SearchBar';
-// import BookData from '';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from './Dropdown';
@@ -15,9 +14,7 @@ function Navbar() {
 
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {
-      // onClick={setDropdown}
       setDropdown(true);
-      // false
     } else {
       setDropdown(true);
     }
@@ -53,7 +50,7 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              to='/products'
+              to='/OnlineCourses'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -66,10 +63,9 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/services'
+              to='/More'
               className='nav-links'
               onClick={setDropdown}
-              // onClick={closeMobileMenu}
             >
               More <i className='fas fa-caret-down' />
             </Link>
@@ -94,14 +90,10 @@ function Navbar() {
             </Link>
             <SearchBar placeholder="Search" />
           </li>
-          {/* <li className="searchten">
-              
-          </li> */}
         </ul>
         <div className="btn-nav">
         <Button />
         </div>
-        {/* <Button /> */}
       </nav>
     </div>
   );

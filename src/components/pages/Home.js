@@ -16,7 +16,7 @@ export default function Home() {
       
       <section className="about-sec">
           <div>
-            <h2 className="about-head">ABOUT US</h2>
+              <h2 className="about-head">ABOUT US</h2>
               <div>
                 <img className="about-img" src={"https://static.wixstatic.com/media/749045033f5b4f539376b91db3710416.jpg/v1/fill/w_551,h_370,al_c,q_80,usm_0.66_1.00_0.01/Teen%20study%20group.webp"} alt="about-image" />
               </div>
@@ -24,9 +24,11 @@ export default function Home() {
                 <p>Learning Together From the Comfort <br />of Your Home</p>
               </div>
               <br />
+              <div style={{textAlign:'center'}}>
               <Link to='/about'>
                 <button className="btn">Learn More</button>
               </Link>
+              </div>
           </div> 
       </section>
 
@@ -35,12 +37,7 @@ export default function Home() {
           <div  className="discord-head">
             <br />
             <p>Welcome to <br/><span className="discord-head-p">THE NEXT BIG THING</span></p>
-            </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            </div><br /><br /><br /><br /><br />
             <a className="discord-a" href="https://discord.gg/A8zBusy" target="_blank">
               <button className="btn"  >Virtual Campus</button>
             </a>
@@ -54,10 +51,7 @@ export default function Home() {
           <p id="course-p">Your New <br />Journey Begins Here,<br /> Today</p>
         </div>
         <div className="course1Entrepreneurship-div2">
-          <p>Entrepreneurship<br /> made fun</p>
-          <br />
-          <br />
-          <br />
+          <p>Entrepreneurship<br /> made fun</p><br /><br /><br />
           <Link to='/CourseEntrepreneurship'>
             <button className="btn">Explore More</button>
           </Link>
@@ -67,10 +61,7 @@ export default function Home() {
         <div className="course2Entrepreneurship-div1">
         </div>
         <div className="course2Entrepreneurship-div2">
-          <p>digital<br />marketing</p>
-          <br />
-          <br />
-          <br />
+          <p>digital<br />marketing</p><br /><br /><br />
           <Link to='/about'>
             <button className="btn">Explore More</button>
           </Link>
@@ -80,10 +71,7 @@ export default function Home() {
       </section>
       <section className="courseEntrepreneurship-sec">
         <div className="course3Entrepreneurship-div1">
-          <p>Product Management<br /> like a pro</p>
-          <br />
-          <br />
-          <br />
+          <p>Product Management<br /> like a pro</p><br /><br /><br />
           <Link to='/about'>
             <button className="btn">Explore More</button>
           </Link>
@@ -127,9 +115,6 @@ export default function Home() {
         </video>
         <div className="consulting-link">
           <p><i>Power of </i><span> &nbsp; TEN  &nbsp;</span><i>Consulting</i></p>
-          {/* <Link to='/about'>
-              <button className="btn">Explore Here &gt;</button>
-          </Link> */}
           <a href="https://www.consulting.entrepreneurshipnetwork.net/" target="_blank">
               <button className="btn"  >Explore Here &gt;</button>
             </a>

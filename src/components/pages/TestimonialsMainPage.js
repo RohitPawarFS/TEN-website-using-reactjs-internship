@@ -10,7 +10,6 @@ export default function TestimonialsMainPage() {
                 <source src="https://video.wixstatic.com/video/11062b_bc016da29c8b4da282f4052c9a538621/720p/mp4/file.mp4" type="video/mp4" />
             </video>
             <ImageSliderPage slides={SliderData}/>
-            {/* <h1 style={{display: 'inline', textAlign: 'center'}}>hii</h1> */}
         </section>
     );
 }

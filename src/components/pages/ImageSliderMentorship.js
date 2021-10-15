@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { SliderData } from './testimonialsSec';
-import './TestimonialsSec.css';
+import { SliderData } from './Tesimonalmentorship';
+import './TestimonialsPage.css';
+import { Link } from 'react-router-dom';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
-const ImageSlider = ({ slides }) => {
+const ImageSliderMentorship = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
@@ -21,20 +22,21 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <section className='slider'>
-      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+      <FaArrowAltCircleLeft className='left-arrow1' onClick={prevSlide} />
+      <FaArrowAltCircleRight className='right-arrow1' onClick={nextSlide} />
       {SliderData.map((slide, index) => {
         return (
           <div
-            className={index === current ? 'slide active' : 'slide'}
+            className={index === current ? 'slide active1' : 'slide'}
             key={index}
           >
             {index === current && (
-              <div className='image'>
-                <p>{slide.title}</p>
-                <p>{slide.head}</p>
-                <br/>
-                <h1>{slide.author}</h1>
+              <div className='images1'>
+                        <p>{slide.title}</p>
+                        <p>{slide.head}</p>
+                        <p>{slide.head1}</p>
+                        <br/>
+                        <h1>{slide.author}</h1>
               </div>
               
             )}
@@ -45,4 +47,4 @@ const ImageSlider = ({ slides }) => {
   );
 };
 
-export default ImageSlider;
+export default ImageSliderMentorship;

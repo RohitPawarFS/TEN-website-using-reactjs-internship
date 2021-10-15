@@ -1,0 +1,139 @@
+.mentorship{
+    width:100%;
+    height:auto;
+}
+
+.mentor{
+    text-align: center;
+    box-shadow: 0px 4px grey;
+}
+.test_section{
+    width: 100%;
+    height:90vh;
+    color: black;
+    background: url('https://static.wixstatic.com/media/035244_04cbb98f178e46efb847ad15f5ca060b.jpg/v1/fill/w_1225,h_853,al_c,q_85,usm_0.66_1.00_0.01/035244_04cbb98f178e46efb847ad15f5ca060b.webp');
+}
+
+.slide.active1 {
+    width: 80%;
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+
+.main_access{
+    width:100%;
+    height:100%;
+    padding-bottom: 30px;
+    background-color: rgb(218, 107, 218);
+}
+.mentor_access_grid{
+    display:flex;
+    width:100%;
+    height:80vh;
+    background-color: rgb(218, 107, 218);
+    color:white;
+    font-size:20px;
+}
+.instant_and_image{
+    width:100%;
+    margin-top: 2%;
+    text-align: center;
+}
+.instant-img1{
+    height:70%;
+    width:90%;
+}
+.rightside{
+    width:100%;
+    margin-top:5%;
+}
+.ment-p{
+    line-height: auto;
+}
+
+
+.button_access{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0px;
+    color:white;
+}
+.btn-ment{
+    background-color: red;
+    color:white;
+    font-size: 30px;
+    border-radius: 0px;
+    box-shadow: 0px 3px black ;
+}
+
+.why_ten{
+    width:100%;
+    height:80vh;
+    position:relative;
+    display:block;
+}
+.why{ 
+    width:100%;
+    height:80vh;
+    background: url('https://static.wixstatic.com/media/c4ea0b_a92eedf6bca84700ac023a97f650f20d~mv2.jpg/v1/fill/w_1694,h_900,al_c,q_85/c4ea0b_a92eedf6bca84700ac023a97f650f20d~mv2.webp');
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+.why-h1{
+    color:white;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.text_grid{
+    width:100%;
+    top:25%;
+    position: absolute;
+    height:40vh;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(70, 67, 67, 0.8); 
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    padding: 20px;
+    text-align: center; 
+}
+.text-div{
+    width:33%;
+    text-align: center;
+    margin:10px;
+}
+.text-p{
+        color:white;
+        font-weight: 800;
+        font-size:20px;
+}
+
+.btn_mentor{
+    position: absolute;
+    width:100%;
+    top:85%;
+    height: 50vh;
+    text-align:center;
+    z-index: 4;
+}
+.mentor-btn1{
+    border-radius: 0px;
+    font-size: 30px;
+    background-color: red;
+    color:white;
+}

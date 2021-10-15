@@ -1,0 +1,105 @@
+.socialMediaContainer{
+    margin-top: 3%;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5900e9c8c534a52b268b4003/1521041836452-3TWTOSNQH5W72V2OZYH8/social+background+.jpg?format=2500w');
+  }
+  
+  .tags {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 20px;
+  }
+  
+  .sCard {
+    margin: 2px;
+    background-color: transparent !important;
+    border: none !important;
+  }
+  
+  .sCard a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .instagram p:hover {
+    color: black !important;
+  }
+  
+  .instagram {
+    background-color: #d1e7f1;
+    padding: 10px !important;
+    margin: -15px !important;
+    font-size: 13px;
+    justify-content: start !important;
+  }
+  
+  .socialIcons {
+    padding: 60px 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    color: white !important;
+  }
+  
+  
+  .socialIcons a{
+      color: white;
+  }
+  
+  .socialIcons a:hover {
+      color: white;
+  }
+  
+  .update{
+      background-color: #8D018B;
+      display: flex;
+      justify-content: space-between;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      width: 95%;
+      margin: 50px auto;
+      color: white;
+      font-size: 12px;
+      padding: 0px 20px;
+  }
+  
+  .update p{
+      padding-top: 10px;
+  }
+  
+  .follow{
+      width: 65%;
+      margin: 0 auto;
+      color: white;
+  }
+  
+  .logo{
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .logo img{
+      width: 80%;
+  }
+  
+  .logoName{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: 600;
+      padding-right: 10px;
+  }
+
+  @media screen and (max-width: 900px) {
+      .tags {
+          margin-top: 3%;
+          display: block;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(1, 1fr);
+      }
+  }
+
+

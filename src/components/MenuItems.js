@@ -6,12 +6,12 @@ export const MenuItems = [
     },
     {
       title: 'Blog',
-      path: '/consulting',
+      path: '/Blog',
       cName: 'dropdown-link'
     },
     {
       title: 'Certification',
-      path: '/design',
+      path: '/Certification',
       cName: 'dropdown-link'
     },
     {
@@ -31,22 +31,22 @@ export const MenuItems = [
     },
     {
       title: 'Membership registration',
-      path: '/design',
+      path: '/MembershipRegistration',
       cName: 'dropdown-link'
     },
     {
       title: 'Campus Ambassador Program',
-      path: '/design',
+      path: '/CampusAmbassdor',
       cName: 'dropdown-link'
     },
     {
       title: 'Mentorship',
-      path: '/design',
+      path: '/Mentorship',
       cName: 'dropdown-link'
     },
     {
       title: 'Social media',
-      path: '/design',
+      path: '/SocialMedia',
       cName: 'dropdown-link'
     },
     {
@@ -56,7 +56,7 @@ export const MenuItems = [
     },
     {
       title: 'complaints',
-      path: '/development',
+      path: '/complaints',
       cName: 'dropdown-link'
     }
   ];

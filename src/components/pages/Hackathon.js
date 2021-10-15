@@ -35,17 +35,7 @@ export default function Hackathon() {
             <section className="hackathon-sec1">
                 <div className="hackathon-div5">
                 <h1 style={{color:'#BC9B5D',fontSize: '50px'}}><i>About TEN HACK'20</i></h1>
-<p>TEN Hack ’20 will be an online event and you can be a part of it by sitting anywhere in the world.
-​
-It promises to be a surreal experience, with applicants witnessing new path-breaking technologies and exposure to industries of different domains. As a part of the process, every participant will be given a problem statement pertinent to today’s world and they are expected to come up with innovative solutions, present them to a panel of technical and functional architects, and convince them as to what makes their solutions work.
-
- 
-
-The hack aims at providing students with a platform to get in touch with the pioneers of modern technology so as to whet their appetite for gaining technological knowledge. Under the mentorship of these seasoned veterans, participants will have the opportunity to construct their ideas in a way that makes them more pragmatic and profitable.
-
-​
-
-The participants will compete for an attractive prize money and certificates. And with applications from more than 200 colleges country-wide to be expected, it surely makes for a fascinating contest.</p>
+                <p>TEN Hack ’20 will be an online event and you can be a part of it by sitting anywhere in the world.It promises to be a surreal experience, with applicants witnessing new path-breaking technologies and exposure to industries of different domains. As a part of the process, every participant will be given a problem statement pertinent to today’s world and they are expected to come up with innovative solutions, present them to a panel of technical and functional architects, and convince them as to what makes their solutions work.The hack aims at providing students with a platform to get in touch with the pioneers of modern technology so as to whet their appetite for gaining technological knowledge. Under the mentorship of these seasoned veterans, participants will have the opportunity to construct their ideas in a way that makes them more pragmatic and profitable.The participants will compete for an attractive prize money and certificates. And with applications from more than 200 colleges country-wide to be expected, it surely makes for a fascinating contest.</p>
                 <br />
                 <Link to='/about'>
                         <button className="btn">Events</button>
@@ -93,7 +83,7 @@ The participants will compete for an attractive prize money and certificates. An
                     <br />
                     <h1>Hackathon<br />2020</h1>
                     <h4>Registration</h4>
-<p>Please fill the information below to Register for HACKATHON</p>
+                    <p>Please fill the information below to Register for HACKATHON</p>
                 </div>
             </section>
             <section  className="hackathon-sec1">

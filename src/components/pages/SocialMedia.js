@@ -46,7 +46,7 @@ const SocialMedia = () => {
       <div className="tags">{socialInfo.map(socialCard)}</div>
       <div className="update">
         <p>Last updated: 12hours ago</p>
-        <p>Made by Shushanto Sarkar</p>
+        <p>Made by Rohit Pawar</p>
       </div>
       <div className="follow">
         <h1>Follow us on social media:</h1>
